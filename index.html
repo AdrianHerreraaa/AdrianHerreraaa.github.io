@@ -1,90 +1,142 @@
 <!DOCTYPE html>
-<html>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Mi Sitio Web</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.sanvalero.es/actualidad/centro-san-valero-impulsa-el-cloud-computing-de-la-mano-de-aws">Acerca de</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/AdrianHerreraaa/AdrianHerreraaa.github.io">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ </div>
+</footer>
+<div class="container mt-5">
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title">Sobre mí</h2>
+      <p class="card-text">Soy un chico con ganas de aprender y con ganas de escuchar, me encanta la informática, así que si quieres algo contáctame.</p>
+      <a href="#contacto" class="btn btn-primary">Contáctame</a>
+    </div>
+  </div>
+</div>
+<div class="container-fluid p-5 bg-light text-center">
+  <h1 class="display-4">Bienvenidos a mi Sitio Web</h1>
+  <p class="lead">Aqui tengo unas cuantas fotos mías con mis compañeros.</p>
+  <a href="#portfolio" class="btn btn-primary btn-lg">Ver mi trabajo</a>
+</div>
 <head>
-	<title>Adrián Herrera</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</head>
+<!-- Importar Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<style>
+		.carousel-item img {
+			margin: 0 auto;
+			width: 500px;
+			height: auto;
+		}
+	</style>
 </head>
 <body>
-    <nav>
-      <ul>
-        <li><a href="#acerca">Acerca de</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<!-- Indicadores -->
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
 
-  <section id="acerca">
-    <h1>Acerca de</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit auctor, nostra habitasse nulla faucibus dignissim     cras curabitur aliquet, duis placerat hendrerit metus sollicitudin tortor lectus. Aliquam vestibulum ad         fames cursus suscipit eros ut convallis erat, ullamcorper dictumst et dui euismod class ultricies placerat      vitae, senectus eleifend montes lectus sodales felis tempor augue. Varius dictum integer sociosqu ac            condimentum habitasse, faucibus enim urna odio.
-</p>
-    <figure>
-    <img src="https://via.placeholder.com/350x150" alt="Foto Adrián Herrera">
-      <figcaption>Leyenda</figcaption>
-    </figure>
-  </section>
+		<!-- Imágenes -->
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="centro-san-valero.jpg" class="d-block w-50" alt="Imagen 1">
+			</div>
+			<div class="carousel-item">
+				<img src="grado medio aws.jpg" class="d-block w-50" alt="Imagen 2">
+			</div>
+			<div class="carousel-item">
+				<img src="foto final aws san valero copia_0.jpg" class="d-block w-50" alt="Imagen 3">
+			</div>
+		</div>
 
-  <section id="portfolio">
-    <h1>Portfolio</h1>
-    <ul>
-      <li>
-        <h2>Proyecto 1</h2>
-        <figure>
-        <img src="https://via.placeholder.com/350x150" alt="Imagen 1">
-          <figcaption>Leyenda de la imagen</figcaption>
-        </figure>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit auctor, nostra habitasse nulla faucibus               dignissim cras curabitur aliquet, duis placerat hendrerit metus sollicitudin tortor lectus. Aliquam             vestibulum ad fames cursus suscipit eros ut convallis erat, ullamcorper dictumst et dui euismod class           ultricies placerat vitae, senectus eleifend montes lectus sodales felis tempor augue. Varius dictum             integer sociosqu ac condimentum habitasse, faucibus enim urna odio.
-        </p>
-      </li>
-      <li>
-        <h2>Proyecto 2</h2>
-        <figure>
-        <img src="https://via.placeholder.com/350x150" alt="Imagen 2">
-          <figcaption>Leyenda de la imagen</figcaption>
-        </figure>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit auctor, nostra habitasse nulla faucibus                dignissim cras curabitur aliquet, duis placerat hendrerit metus sollicitudin tortor lectus. Aliquam             vestibulum ad fames cursus suscipit eros ut convallis erat, ullamcorper dictumst et dui euismod class           ultricies placerat vitae, senectus eleifend montes lectus sodales felis tempor augue. Varius dictum             integer sociosqu ac condimentum habitasse, faucibus enim urna odio.
-        </p>
-      </li>
-      <li>
-        <h2>Proyecto 3</h2>
-        <figure>
-        <img src="https://via.placeholder.com/350x150" alt="Imagen 3">
-          <figcaption>Leyenda de la imagen</figcaption>
-        </figure>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit auctor, nostra habitasse nulla faucibus               dignissim cras curabitur aliquet, duis placerat hendrerit metus sollicitudin tortor lectus. Aliquam             vestibulum ad fames cursus suscipit eros ut convallis erat, ullamcorper dictumst et dui euismod class           ultricies placerat vitae, senectus eleifend montes lectus sodales felis tempor augue. Varius dictum             integer sociosqu ac condimentum habitasse, faucibus enim urna odio.
-        </p>
-      </li>
-    </ul>
-  </section>
-  
-  <section id="contacto">
-    <h1>Contáctame</h1>
-    <form>
-      <label for="nombre">Nombre:</label>
-      <input type="text" name="nombre" id="nombre" required>
-      <br>
-      <label for="edad">Edad:</label>
-      <input type="number" name="edad" id="edad" min="18" required>
-      <br>
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" required>
-      <br>
-      <label for="mensaje">Mensaje:</label>
-      <br>
-      <textarea name="mensaje" id="mensaje" minlength="20" required></textarea>
-      <br>
-      <input type="checkbox" name="privacidad" id="privacidad" required>
-      <label for="privacidad">Acepto la Política de Privacidad</label>
-      <br>
-      <input type="submit" value="Enviar">
-    </form>
-  </section>
+		<!-- Controles -->
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Anterior</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Siguiente</span>
+		</a>
+	</div>
 
-  <footer>
-    <div class="fondo-radiante">
-    <p>Adrián Herrera, Aplicaciones Web</p>
-  </div>
-  </footer>
-
+	<!-- Importar jQuery y Bootstrap JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
-</html>
+<div class="container mt-5">
+  <h2>Contacto</h2>
+  <form>
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+    </div>
+    <div class="mb-3">
+      <label for="mensaje" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="3" placeholder="Ingresa tu mensaje"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</div>
+<footer class="bg-light text-center text-lg-start">
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Mi Sitio Web</h5>
+        <p>
+          Esta pequeña web para poder impulsarme cada día más al mundo entero
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">Enlaces Sociales</h5>
+<ul class="list-unstyled">
+<li>
+<a href="#!" class="text-dark"><i class="bi bi-twitter"></i> Twitter</a>
+</li>
+<li>
+<a href="#!" class="text-dark"><i class="bi bi-facebook"></i> Facebook</a>
+</li>
+<li>
+<a href="#!" class="text-dark"><i class="bi bi-instagram"></i> Instagram</a>
+</li>
+<li>
+<a href="#!" class="text-dark"><i class="bi bi-youtube"></i> Youtube</a>
+</li>
+</ul>
+</div>
+</div>
+
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Mi Sitio Web. Todos los derechos reservados.
